@@ -278,6 +278,12 @@ class enigma:
 
 ######################################################################################################
 ### Klasse zum Laden der Schlüsseltafel und Ausgabe eines Tagesschlüssels
+###
+### Format/Beispiel einer Schlüsseltafel:
+### Tag  Walzenlage  Ringstellung  ---- Steckerverbindungen ----
+###  31  III  I  IV    01 17 22    AH BL CX DI ER FK GU NP OQ TY
+###  30   II  V   I    18 24 11    BN DZ EP FX GT HW IY OU QV RS
+###  29    I IV III    16 26 08    AD CN ET FL GI JV KZ PU QY WX
 ######################################################################################################
 class schluesseltafel:    
     ######################################################################################################
